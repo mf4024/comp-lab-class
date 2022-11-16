@@ -1,0 +1,497 @@
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 0.81649658 0.81649658 0.81649658
+Created orthogonal box = (0 0 0) to (6.5319726 6.5319726 6.5319726)
+  2 by 2 by 1 MPI processor grid
+Created 512 atoms
+  using lattice units in orthogonal box = (0 0 0) to (6.5319726 6.5319726 6.5319726)
+  create_atoms CPU = 0.000 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 1.3
+  ghost atom cutoff = 1.3
+  binsize = 0.65, bins = 11 11 11
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/2d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.01
+Per MPI rank memory allocation (min/avg/max) = 3.05 | 3.05 | 3.05 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   3              162.16797      0              165.16211      11578.43     
+[gr039:316595:0:316595] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x150fda44e000)
+[gr039:316597:0:316597] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x15022180)
+corrupted size vs. prev_size
+[gr039:316597] *** Process received signal ***
+[gr039:316597] Signal: Aborted (6)
+[gr039:316597] Signal code:  (-6)
+[gr039:316597] [ 0] /lib64/libpthread.so.0(+0x12b20)[0x1528f56bfb20]
+[gr039:316597] [ 1] /lib64/libc.so.6(gsignal+0x10f)[0x1528eafa537f]
+[gr039:316597] [ 2] /lib64/libc.so.6(abort+0x127)[0x1528eaf8fdb5]
+[gr039:316597] [ 3] /lib64/libc.so.6(+0x7a4e7)[0x1528eafe84e7]
+[gr039:316597] [ 4] /lib64/libc.so.6(+0x815ec)[0x1528eafef5ec]
+[gr039:316597] [ 5] /lib64/libc.so.6(+0x81e46)[0x1528eafefe46]
+[gr039:316597] [ 6] /lib64/libc.so.6(+0x81f97)[0x1528eafeff97]
+[gr039:316597] [ 7] /lib64/libc.so.6(+0x84368)[0x1528eaff2368]
+[gr039:316597] [ 8] /lib64/libc.so.6(__libc_malloc+0x1e2)[0x1528eaff3c72]
+[gr039:316597] [ 9] /lib64/libucs.so.0(objalloc_create+0x21)[0x1528dce42251]
+[gr039:316597] [10] /lib64/libucs.so.0(+0x70058)[0x1528dcd8c058]
+[gr039:316597] [11] /lib64/libucs.so.0(+0x7020c)[0x1528dcd8c20c]
+[gr039:316597] [12] /lib64/libucs.so.0(+0x5927e)[0x1528dcd7527e]
+[gr039:316597] [13] /lib64/libucs.so.0(+0x59b88)[0x1528dcd75b88]
+[gr039:316597] [14] /lib64/libucs.so.0(ucs_debug_backtrace_create+0x49)[0x1528dcd75f39]
+[gr039:316597] [15] /lib64/libucs.so.0(+0x5a4a4)[0x1528dcd764a4]
+[gr039:316597] [16] /lib64/libucs.so.0(ucs_handle_error+0x2b0)[0x1528dcd78c00]
+[gr039:316597] [17] /lib64/libucs.so.0(+0x5cdec)[0x1528dcd78dec]
+[gr039:316597] [18] /lib64/libucs.so.0(+0x5cfba)[0x1528dcd78fba]
+[gr039:316597] [19] /lib64/libpthread.so.0(+0x12b20)[0x1528f56bfb20]
+[gr039:316597] [20] lmp[0x572e9c]
+[gr039:316597] [21] lmp[0x569f9f]
+[gr039:316597] [22] lmp[0x64a2c9]
+[gr039:316597] [23] lmp[0x5e4b86]
+[gr039:316597] [24] lmp[0x4f4b44]
+[gr039:316597] [25] lmp[0x4f4f25]
+[gr039:316597] [26] lmp[0x4d154a]
+[gr039:316597] [27] /lib64/libc.so.6(__libc_start_main+0xf3)[0x1528eaf91493]
+[gr039:316597] [28] lmp[0x4d4b7e]
+[gr039:316597] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 316597 on node gr039 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 0.84515425 0.84515425 0.84515425
+Created orthogonal box = (0 0 0) to (6.761234 6.761234 6.761234)
+  2 by 2 by 1 MPI processor grid
+Created 512 atoms
+  using lattice units in orthogonal box = (0 0 0) to (6.761234 6.761234 6.761234)
+  create_atoms CPU = 0.000 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 1.3
+  ghost atom cutoff = 1.3
+  binsize = 0.65, bins = 11 11 11
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/2d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.01
+Per MPI rank memory allocation (min/avg/max) = 3.05 | 3.05 | 3.05 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   3              87.44416       0              90.438301      6465.2948    
+ERROR: Lost atoms: original 512 current 67 (src/thermo.cpp:481)
+Last command: run ${equil_steps}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[17600,1],2]
+  Exit code:    1
+--------------------------------------------------------------------------
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 0.87705802 0.87705802 0.87705802
+Created orthogonal box = (0 0 0) to (7.0164642 7.0164642 7.0164642)
+  2 by 2 by 1 MPI processor grid
+Created 512 atoms
+  using lattice units in orthogonal box = (0 0 0) to (7.0164642 7.0164642 7.0164642)
+  create_atoms CPU = 0.000 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 1.3
+  ghost atom cutoff = 1.3
+  binsize = 0.65, bins = 11 11 11
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/2d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.01
+Per MPI rank memory allocation (min/avg/max) = 3.05 | 3.05 | 3.05 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   3              41.193259      0              44.187399      3313.1407    
+[gr039:317255:0:317255] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1d13f2d0)
+corrupted double-linked list
+[gr039:317255] *** Process received signal ***
+[gr039:317255] Signal: Aborted (6)
+[gr039:317255] Signal code:  (-6)
+[gr039:317255] [ 0] /lib64/libpthread.so.0(+0x12b20)[0x14ed41c48b20]
+[gr039:317255] [ 1] /lib64/libc.so.6(gsignal+0x10f)[0x14ed3752e37f]
+[gr039:317255] [ 2] /lib64/libc.so.6(abort+0x127)[0x14ed37518db5]
+[gr039:317255] [ 3] /lib64/libc.so.6(+0x7a4e7)[0x14ed375714e7]
+[gr039:317255] [ 4] /lib64/libc.so.6(+0x815ec)[0x14ed375785ec]
+[gr039:317255] [ 5] /lib64/libc.so.6(+0x81e2c)[0x14ed37578e2c]
+[gr039:317255] [ 6] /lib64/libc.so.6(+0x849ab)[0x14ed3757b9ab]
+[gr039:317255] [ 7] /lib64/libc.so.6(__libc_malloc+0x1e2)[0x14ed3757cc72]
+[gr039:317255] [ 8] /lib64/libucs.so.0(objalloc_create+0xf)[0x14ed2943f23f]
+[gr039:317255] [ 9] /lib64/libucs.so.0(+0x6e273)[0x14ed29387273]
+[gr039:317255] [10] /lib64/libucs.so.0(+0x7008c)[0x14ed2938908c]
+[gr039:317255] [11] /lib64/libucs.so.0(+0x7020c)[0x14ed2938920c]
+[gr039:317255] [12] /lib64/libucs.so.0(+0x70b32)[0x14ed29389b32]
+[gr039:317255] [13] /lib64/libucs.so.0(+0x6fda1)[0x14ed29388da1]
+[gr039:317255] [14] /lib64/libucs.so.0(+0x713e0)[0x14ed2938a3e0]
+[gr039:317255] [15] /lib64/libucs.so.0(+0xbbd8f)[0x14ed293d4d8f]
+[gr039:317255] [16] /lib64/libucs.so.0(+0xbc018)[0x14ed293d5018]
+[gr039:317255] [17] /lib64/libucs.so.0(+0x946eb)[0x14ed293ad6eb]
+[gr039:317255] [18] /lib64/libucs.so.0(+0x59406)[0x14ed29372406]
+[gr039:317255] [19] /lib64/libucs.so.0(+0x71d27)[0x14ed2938ad27]
+[gr039:317255] [20] /lib64/libucs.so.0(+0x59bde)[0x14ed29372bde]
+[gr039:317255] [21] /lib64/libucs.so.0(ucs_debug_backtrace_create+0x49)[0x14ed29372f39]
+[gr039:317255] [22] /lib64/libucs.so.0(+0x5a4a4)[0x14ed293734a4]
+[gr039:317255] [23] /lib64/libucs.so.0(ucs_handle_error+0x2b0)[0x14ed29375c00]
+[gr039:317255] [24] /lib64/libucs.so.0(+0x5cdec)[0x14ed29375dec]
+[gr039:317255] [25] /lib64/libucs.so.0(+0x5cfba)[0x14ed29375fba]
+[gr039:317255] [26] /lib64/libpthread.so.0(+0x12b20)[0x14ed41c48b20]
+[gr039:317255] [27] lmp[0x572ce3]
+[gr039:317255] [28] lmp[0x569f9f]
+[gr039:317255] [29] lmp[0x64a2c9]
+[gr039:317255] *** End of error message ***
+[gr039:317256:0:317256] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x14ca697f6000)
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 317255 on node gr039 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 0.91287093 0.91287093 0.91287093
+Created orthogonal box = (0 0 0) to (7.3029674 7.3029674 7.3029674)
+  2 by 2 by 1 MPI processor grid
+Created 512 atoms
+  using lattice units in orthogonal box = (0 0 0) to (7.3029674 7.3029674 7.3029674)
+  create_atoms CPU = 0.000 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 1.3
+  ghost atom cutoff = 1.3
+  binsize = 0.65, bins = 12 12 12
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/2d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.01
+Per MPI rank memory allocation (min/avg/max) = 3.05 | 3.05 | 3.05 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+[gr039:317512:0:317512] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x37e09b028)
+         0   3              15.23704       0              18.231181      1477.9413    
+==== backtrace (tid: 317512) ====
+ 0 0x0000000000012b20 .annobin_sigaction.c()  sigaction.c:0
+ 1 0x0000000000572ce3 LAMMPS_NS::NPairHalfBinAtomonlyNewton::build()  /scratch/work/hockygroup/gmh4/Downloads/lammps-github-Oct2022/src/npair_half_bin_atomonly_newton.cpp:70
+ 2 0x0000000000569f9f LAMMPS_NS::Neighbor::build()  /scratch/work/hockygroup/gmh4/Downloads/lammps-github-Oct2022/src/neighbor.cpp:2430
+ 3 0x000000000064a2c9 LAMMPS_NS::Verlet::run()  /scratch/work/hockygroup/gmh4/Downloads/lammps-github-Oct2022/src/verlet.cpp:293
+ 4 0x00000000005e4b86 LAMMPS_NS::Run::command()  /scratch/work/hockygroup/gmh4/Downloads/lammps-github-Oct2022/src/run.cpp:176
+ 5 0x00000000004f4b44 LAMMPS_NS::Input::execute_command()  /scratch/work/hockygroup/gmh4/Downloads/lammps-github-Oct2022/src/input.cpp:847
+ 6 0x00000000004f4f25 LAMMPS_NS::Input::file()  /scratch/work/hockygroup/gmh4/Downloads/lammps-github-Oct2022/src/input.cpp:302
+ 7 0x00000000004d154a main()  /scratch/work/hockygroup/gmh4/Downloads/lammps-github-Oct2022/src/main.cpp:98
+ 8 0x0000000000023493 __libc_start_main()  ???:0
+ 9 0x00000000004d4b7e _start()  ???:0
+=================================
+[gr039:317512] *** Process received signal ***
+[gr039:317512] Signal: Segmentation fault (11)
+[gr039:317512] Signal code:  (-6)
+[gr039:317512] Failing at address: 0x31c49a0004d848
+[gr039:317512] [ 0] /lib64/libpthread.so.0(+0x12b20)[0x1500d21a8b20]
+[gr039:317512] [ 1] lmp[0x572ce3]
+[gr039:317512] [ 2] lmp[0x569f9f]
+[gr039:317512] [ 3] lmp[0x64a2c9]
+[gr039:317512] [ 4] lmp[0x5e4b86]
+[gr039:317512] [ 5] lmp[0x4f4b44]
+[gr039:317512] [ 6] lmp[0x4f4f25]
+[gr039:317512] [ 7] lmp[0x4d154a]
+[gr039:317512] [ 8] /lib64/libc.so.6(__libc_start_main+0xf3)[0x1500c7a7a493]
+[gr039:317512] [ 9] lmp[0x4d4b7e]
+[gr039:317512] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 317512 on node gr039 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 0.95346259 0.95346259 0.95346259
+Created orthogonal box = (0 0 0) to (7.6277007 7.6277007 7.6277007)
+  2 by 2 by 1 MPI processor grid
+Created 512 atoms
+  using lattice units in orthogonal box = (0 0 0) to (7.6277007 7.6277007 7.6277007)
+  create_atoms CPU = 0.000 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 1.3
+  ghost atom cutoff = 1.3
+  binsize = 0.65, bins = 12 12 12
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/2d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.01
+Per MPI rank memory allocation (min/avg/max) = 3.05 | 3.05 | 3.05 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   3              3.1498787      0              6.1440194      491.58085    
+ERROR: Lost atoms: original 512 current 494 (src/thermo.cpp:481)
+Last command: run ${equil_steps}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[18886,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 1 1 1
+Created orthogonal box = (0 0 0) to (8 8 8)
+  2 by 2 by 1 MPI processor grid
+Created 512 atoms
+  using lattice units in orthogonal box = (0 0 0) to (8 8 8)
+  create_atoms CPU = 0.000 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 1.3
+  ghost atom cutoff = 1.3
+  binsize = 0.65, bins = 13 13 13
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/2d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.01
+Per MPI rank memory allocation (min/avg/max) = 3.05 | 3.05 | 3.05 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   3              0              0              2.9941406      23.953125    
+       500   3.1545391      1.6612073      0              4.8095852      258.18226    
+      1000   3.1211847      1.6270239      0              4.7421125      256.2462     
+      1500   3.2591741      1.7424622      0              4.9952707      270.80145    
+      2000   3.0252763      1.4062621      0              4.4256296      232.92997    
+      2500   2.9930671      1.5514592      0              4.5386805      246.57946    
+      3000   3.0167386      1.4657912      0              4.4766377      234.71667    
+      3500   3.1599911      1.6676195      0              4.8214388      252.94882    
+ERROR: Lost atoms: original 512 current 510 (src/thermo.cpp:481)
+Last command: run ${equil_steps}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[18850,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 1.0540926 1.0540926 1.0540926
+Created orthogonal box = (0 0 0) to (8.4327404 8.4327404 8.4327404)
+  2 by 2 by 1 MPI processor grid
+Created 512 atoms
+  using lattice units in orthogonal box = (0 0 0) to (8.4327404 8.4327404 8.4327404)
+  create_atoms CPU = 0.000 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 1.3
+  ghost atom cutoff = 1.3
+  binsize = 0.65, bins = 13 13 13
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/2d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.01
+Per MPI rank memory allocation (min/avg/max) = 3.05 | 3.05 | 3.05 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   3              0              0              2.9941406      21.557812    
+       500   3.0403252      0.97060913     0              4.0049962      152.95352    
+      1000   2.9709167      0.92983405     0              3.8949482      149.00003    
+      1500   2.8330115      0.90419709     0              3.7316753      143.35916    
+      2000   2.9140066      0.90731749     0              3.8156327      139.05325    
+      2500   2.9744922      1.0192324      0              3.987915       147.58518    
+ERROR: Lost atoms: original 512 current 504 (src/thermo.cpp:481)
+Last command: run ${equil_steps}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[18722,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 1.118034 1.118034 1.118034
+Created orthogonal box = (0 0 0) to (8.9442719 8.9442719 8.9442719)
+  2 by 2 by 1 MPI processor grid
+Created 512 atoms
+  using lattice units in orthogonal box = (0 0 0) to (8.9442719 8.9442719 8.9442719)
+  create_atoms CPU = 0.001 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 1.3
+  ghost atom cutoff = 1.3
+  binsize = 0.65, bins = 14 14 14
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/2d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.01
+Per MPI rank memory allocation (min/avg/max) = 3.05 | 3.05 | 3.05 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   3              0              0              2.9941406      19.1625      
+       500   2.8657816      0.71497581     0              3.5751602      100.6778     
+      1000   2.7104924      0.69936185     0              3.4045603      101.07245    
+      1500   2.8544224      0.65200917     0              3.5008565      96.319857    
+      2000   2.7732704      0.6221034      0              3.3899572      92.85053     
+      2500   2.822501       0.72347547     0              3.5404638      98.318746    
+      3000   2.9348807      0.64689382     0              3.5760423      101.18388    
+      3500   3.0485718      0.56591609     0              3.6085336      88.019105    
+      4000   3.0891667      0.55254205     0              3.6356752      87.223739    
+      4500   2.9148968      0.5799679      0              3.4891715      92.609111    
+      5000   2.8255551      0.56814104     0              3.3881775      88.5041      
+      5500   3.0360043      0.58900821     0              3.6190828      94.022515    
+      6000   3.0954482      0.61040293     0              3.6998053      95.870088    
+      6500   2.9474826      0.70272036     0              3.6444462      102.84362    
+      7000   3.016682       0.55642406     0              3.5672141      88.857323    
+      7500   2.791512       0.62341487     0              3.4094747      93.976762    
+      8000   2.8395544      0.57105501     0              3.4050634      89.775106    
+      8500   3.0729193      0.73535513     0              3.8022727      103.14652    
+ERROR: Lost atoms: original 512 current 504 (src/thermo.cpp:481)
+Last command: run ${equil_steps}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[20140,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 1 1 1
+Created orthogonal box = (0 0 0) to (8 8 8)
+  2 by 2 by 1 MPI processor grid
+Created 512 atoms
+  using lattice units in orthogonal box = (0 0 0) to (8 8 8)
+  create_atoms CPU = 0.001 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 1.3
+  ghost atom cutoff = 1.3
+  binsize = 0.65, bins = 13 13 13
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/2d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.01
+Per MPI rank memory allocation (min/avg/max) = 3.05 | 3.05 | 3.05 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   3              0              0              2.9941406      23.953125    
+       500   3.1545391      1.6612073      0              4.8095852      258.18226    
+      1000   3.1211847      1.6270239      0              4.7421125      256.2462     
+      1500   3.2591741      1.7424622      0              4.9952707      270.80145    
+      2000   3.0252763      1.4062621      0              4.4256296      232.92997    
+      2500   2.9930671      1.5514592      0              4.5386805      246.57946    
+      3000   3.0167386      1.4657912      0              4.4766377      234.71667    
+      3500   3.1599911      1.6676195      0              4.8214388      252.94882    
+ERROR: Lost atoms: original 512 current 510 (src/thermo.cpp:481)
+Last command: run ${equil_steps}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[20448,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------

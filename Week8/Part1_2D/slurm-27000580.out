@@ -1,0 +1,119 @@
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+ERROR: Expected floating point parameter instead of 'i' in input script or data file (src/lattice.cpp:85)
+Last command: lattice         sq ${density}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[12207,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+/opt/slurm/data/slurmd/job27000580/slurm_script: line 13: -log: command not found
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+ERROR: Expected floating point parameter instead of 'i' in input script or data file (src/lattice.cpp:85)
+Last command: lattice         sq ${density}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[12213,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+/opt/slurm/data/slurmd/job27000580/slurm_script: line 13: -log: command not found
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+ERROR: Expected floating point parameter instead of 'i' in input script or data file (src/lattice.cpp:85)
+Last command: lattice         sq ${density}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[12160,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+/opt/slurm/data/slurmd/job27000580/slurm_script: line 13: -log: command not found
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+ERROR: Expected floating point parameter instead of 'i' in input script or data file (src/lattice.cpp:85)
+Last command: lattice         sq ${density}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[12271,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+/opt/slurm/data/slurmd/job27000580/slurm_script: line 13: -log: command not found
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+ERROR: Expected floating point parameter instead of 'i' in input script or data file (src/lattice.cpp:85)
+Last command: lattice         sq ${density}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[12282,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+/opt/slurm/data/slurmd/job27000580/slurm_script: line 13: -log: command not found
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+ERROR: Expected floating point parameter instead of 'i' in input script or data file (src/lattice.cpp:85)
+Last command: lattice         sq ${density}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[12225,1],2]
+  Exit code:    1
+--------------------------------------------------------------------------
+/opt/slurm/data/slurmd/job27000580/slurm_script: line 13: -log: command not found
+LAMMPS (15 Sep 2022)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+ERROR: Expected floating point parameter instead of 'i' in input script or data file (src/lattice.cpp:85)
+Last command: lattice         sq ${density}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[11820,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+/opt/slurm/data/slurmd/job27000580/slurm_script: line 13: -log: command not found
